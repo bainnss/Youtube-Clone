@@ -1,5 +1,9 @@
 import React from "react";
-// import { } from ''
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faBell } from '@fortawesome/free-solid-svg-icons';
 
 
 let Navbar = () => {
@@ -8,18 +12,24 @@ let Navbar = () => {
 
             <nav className="navbar">
                 <div className="navbar__logo">
+                    <FontAwesomeIcon className="logo-icon" icon={faYoutube} />
+                    <p>YouTube</p>
+                </div>
+                <div className="input-search">
+                    <input className="input" type="text" placeholder="Search" />
+                    <FontAwesomeIcon className="search-icon" icon={faMagnifyingGlass} />
 
-                    {/* <img src="youtube_logo.png" alt="YouTube Logo" /> */}
-                    <span className="navbar__title">YouTube</span>
                 </div>
-                <div className="navbar__search">
-                    <input type="text" placeholder="Search" />
-                    {/* <button className="navbar__search-button">Search</button> */}
-                </div>
-                <div className="navbar__actions">
-                    <button className="navbar__upload-button">Upload</button>
-                    {/* <img src="profile_picture.png" alt="Profile Picture" /> */}
-                </div>
+                <ul className="navbar__links">
+                    <li><a href="/"><FontAwesomeIcon className="plus-icon" icon={faPlus} /></a></li>
+
+                    <li><a href="/about"><FontAwesomeIcon className="plus-icon" icon={faBell} /></a></li>
+
+                    <li><a href="/">
+                        <img className="profile-icon" src="https://yt3.ggpht.com/O9fEqRad_5365g-Ewh3bazGP4rmHwCjj2awtlNfaoS1kuGzWrTjzUNTkPAKAc0p5G9dyuYu0nSA=s88-c-k-c0x00ffffff-no-rj" alt="profiles" />
+                    </a></li>
+
+                </ul>
             </nav>
         </>
     )
