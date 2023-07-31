@@ -105,12 +105,22 @@ export let YData = [
     },
     {
         id: 11,
-        link: 'https://www.youtube.com/watch?v=-jFYdg31Jd0',
-        imgsrc: 'https://img.youtube.com/vi/-jFYdg31Jd0/maxresdefault.jpg',
-        channelImgsrc: 'https://yt3.ggpht.com/ytc/AOPolaQMtqt8g-xxJ3BkIF06RPiJcIsPzbSOLOwDVAA5pw=s68-c-k-c0x00ffffff-no-rj',
-        videoTitle: 'Learn to push your code in GITHUB',
-        channelName: 'Code with Harry',
-        views: '47k Views',
-        time: '4 Days ago'
+        link: 'https://www.youtube.com/watch?v=n5TPKJoK6gU',
+        imgsrc: 'https://img.youtube.com/vi/n5TPKJoK6gU/maxresdefault.jpg',
+        channelImgsrc: 'https://yt3.ggpht.com/_Ty1eVnwqzkJbVgJ3OTwug9FxYahMWyTBhl8EktHXCnurcTW2lO-YX84bsfmsKwHAzil07-f=s68-c-k-c0x00ffffff-no-rj',
+        videoTitle: 'Mutton Mandi after a long time in UAE',
+        channelName: 'Abdul Malik Fareed',
+        views: '681k Views',
+        time: '9 Months ago'
     },
+    {
+        id: 12,
+        link: 'https://www.youtube.com/watch?v=_SgI5d3DAPk',
+        imgsrc: 'https://img.youtube.com/vi/_SgI5d3DAPk/maxresdefault.jpg',
+        channelImgsrc: 'https://yt3.ggpht.com/kiHNjcPjhB-das7t4fdWGKkR0SPg7vRnqwuWlesBZwuLlJrg9UbexOswNKJwnxT1PWN80DL8tw=s68-c-k-c0x00ffffff-no-rj',
+        videoTitle: 'Obito Uchiha AMV/SMV ',
+        channelName: 'Tributer craft',
+        views: '912k Views',
+        time: '2 Years ago'
+    }
 ]

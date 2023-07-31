@@ -20,7 +20,6 @@ let App = () => {
               views={el.views}
               time={el.time} />
 
-
           })
         }
 

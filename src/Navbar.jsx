@@ -4,6 +4,8 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-solid-svg-icons';
+import Search from './Search'
+
 
 
 let Navbar = () => {
@@ -16,7 +18,8 @@ let Navbar = () => {
                     <p>YouTube</p>
                 </div>
                 <div className="input-search">
-                    <input className="input" type="text" placeholder="Search" />
+                    {/* <input  type="text" placeholder="Search" /> */}
+                    <Search></Search>
                     <FontAwesomeIcon className="search-icon" icon={faMagnifyingGlass} />
 
                 </div>
